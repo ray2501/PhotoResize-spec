@@ -13,6 +13,7 @@ Source:        %{tarname}-%{version}.tar.gz
 URL:           https://github.com/auriocus/PhotoResize
 BuildRequires: autoconf
 BuildRequires: make
+BuildRequires: gcc-c++
 BuildRequires: tcl-devel >= 8.4
 BuildRequires: tk-devel >= 8.4
 Requires:      tcl >= 8.4
